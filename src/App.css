@@ -3,6 +3,36 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+  background: -webkit-repeating-linear-gradient(
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.1)
+  ),
+  url("test.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+form{
+  background-color: aliceblue;
+  padding: 10px 50px;
+  border-radius: 10px ;
+  width:auto
+}
+h1{
+  color: rgb(56 13 112);
+  text-align: center;
+  
+}
+button{
+  width: 115px;
+  height: 35px;
+  border-radius: 8px;
+  color:rgb(56 13 112); 
+  background-color: #bec3b9;
+}
+.buttonClass{
+  display: flex;
+  justify-content: center;
 }
 
 /* .App-logo {
