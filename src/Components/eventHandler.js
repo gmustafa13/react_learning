@@ -7,8 +7,13 @@ import React from "react";
  * in func. comp u can use any parameter  || useSate hooks for using state
  * in class comp use this.props  || use this.state in class comp
  */
-const UseStateInFunction = () => {
-  return <div></div>;
+const EventHandler = () => {
+ const clickHandler = ()=>{
+    console.log("clicked");
+  }
+  return (<div>
+    <button onClick={clickHandler}>Click Me</button>
+  </div>);
 };
 
-export default UseStateInFunction;
+export default EventHandler;
