@@ -4,6 +4,7 @@ import FunctionBased from "./Components/functionBased";
 import DemoForSate  from './Components/propsVsState'
 import EventHandler from "./Components/eventHandler";
 import BindEventClass from './Components/bindEvendCls'
+import MethodAsProps from "./Components/methodAsProps";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <DemoForSate/>
       <EventHandler/>
       <BindEventClass/>
+      <MethodAsProps/>
     </div>
   );
 }
