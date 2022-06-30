@@ -1,4 +1,4 @@
-import reatc from "react";
+import react from "react";
 
 const ChildComponents = (props) => {
   return (
